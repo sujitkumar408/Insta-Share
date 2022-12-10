@@ -1,0 +1,143 @@
+.post-list-item {
+  width: 100%;
+  max-width: 1100px;
+  padding: 10px 0px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  margin-bottom: 32px;
+  padding-bottom: 4px;
+}
+
+.post-name-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px 0px 5px 20px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: #262626;
+  font-weight: 500;
+  margin-right: 3px;
+}
+
+.post-profile-pic {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 0px;
+}
+
+.post-username {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 5px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-items: center;
+}
+
+.likes-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 5px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-items: center;
+}
+
+.post-image {
+  width: 100%;
+  min-height: 614px;
+  border-radius: 0px;
+}
+
+@media screen and (max-width: 360px) {
+  .post-image {
+    max-height: 375px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .post-image {
+    max-height: 560px;
+  }
+}
+.post-content-div {
+  padding: 10px 20px 0px 20px;
+  width: 100%;
+}
+
+.reaction-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.reaction-button {
+  outline: none;
+  border: 0px;
+
+  padding: 0px;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+
+.react-image {
+  /* width: 100%; */
+  width: 23px;
+  height: 23px;
+}
+
+.post-caption {
+  margin: 5px;
+  color: #262626;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.post-comments-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.time {
+  margin: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #989898;
+}
+
+.com {
+  margin: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.link {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
